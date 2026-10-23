@@ -22,33 +22,38 @@ mcp = FastMCP(
 
 WORKSHOPS = [  # event-specific demo data - replace for another event
     {
+        "title": "Hands-on A2A: Service Discovery and Multi-Agent Delegation",
+        "day": "2026-10-22", "weekday": "Thursday", "start": "10:35", "end": "12:10", "room": "LL21 DEF",
+        "summary": "This 75-minute interactive workshop provides a hands-on environment for engineers to explore agent-to-agent (A2A) protocols through practical execution rather than product pitches.",
+    },
+    {
         "title": "The Buzz-Word Is Collaboration",
-        "day": "2026-10-22", "weekday": "Thursday", "start": "12:05", "end": "13:40", "room": "LL21 DEF",
+        "day": "2026-10-22", "weekday": "Thursday", "start": "14:20", "end": "15:55", "room": "LL21 DEF",
         "summary": "Put agents where the work is: a shared, channel-driven workspace where people and agents share conversations, code and reviews.",
     },
     {
         "title": "Keep Infrastructure Out of Your AI Agents and MCP Servers",
-        "day": "2026-10-22", "weekday": "Thursday", "start": "15:45", "end": "17:20", "room": "LL21 DEF",
+        "day": "2026-10-22", "weekday": "Thursday", "start": "16:05", "end": "17:40", "room": "LL21 DEF",
         "summary": "The agent gateway pattern: secure and federate MCP servers, route and fail over LLM traffic, enforce policy and observe agent traffic.",
     },
     {
         "title": "Break the Lethal Trifecta: Designing Access Boundaries Agents Can't Talk Their Way Past",
-        "day": "2026-10-22", "weekday": "Thursday", "start": "17:30", "end": "18:45", "room": "LL21 DEF",
+        "day": "2026-10-23", "weekday": "Friday", "start": "10:55", "end": "12:30", "room": "230A",
         "summary": "Bound a compromised agent's blast radius by design, using capability surfaces, gateway filtering and structural separation. Security.",
     },
     {
         "title": "Stack It Yourself: Open Infrastructure for AI Agents, from Compose to Cluster",
-        "day": "2026-10-23", "weekday": "Friday", "start": "10:25", "end": "12:00", "room": "LL21 DEF",
+        "day": "2026-10-23", "weekday": "Friday", "start": "10:55", "end": "12:30", "room": "LL21 DEF",
         "summary": "Build an agent on open inference, trace it with OpenTelemetry and the LGTM stack, keep history in Redis, and move it from Compose to Kubernetes.",
     },
     {
         "title": "Governing AI Agent Actions: MCP and Beyond",
-        "day": "2026-10-23", "weekday": "Friday", "start": "12:10", "end": "13:45", "room": "LL21 DEF",
+        "day": "2026-10-23", "weekday": "Friday", "start": "13:45", "end": "15:20", "room": "LL21 DEF",
         "summary": "Policy across MCP servers, CLIs, skills and generated code: managed registries, audit, shadow AI and token spend. Governance.",
     },
     {
         "title": "Secure Agentic Framework (SAF) for Agentic AI",
-        "day": "2026-10-23", "weekday": "Friday", "start": "16:00", "end": "17:35", "room": "LL21 DEF",
+        "day": "2026-10-23", "weekday": "Friday", "start": "15:30", "end": "17:50", "room": "LL21 DEF",
         "summary": "Scan a vulnerable reference environment, map findings to SAF controls for MCP and Kubernetes, fix and re-scan. Security.",
     },
 ]
